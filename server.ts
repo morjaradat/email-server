@@ -7,6 +7,12 @@ import { EmailRequestSchema, validateTemplateRequirements, type EmailRequest } f
 const PORT = Number(Bun.env.PORT) || 3005;
 const API_KEY = Bun.env.API_KEY;
 
+console.log("SMTP_HOST: ", Bun.env.SMTP_HOST);
+console.log("SMTP_PORT: ", Bun.env.SMTP_PORT);
+console.log("SMTP_SECURE: ", Bun.env.SMTP_SECURE);
+console.log("SMTP_USER: ", Bun.env.SMTP_USER);
+console.log("SMTP_PASS: ", Bun.env.SMTP_PASS);
+
 // Bun doesn't expose global types automatically in all envs without tsconfig, 
 // but we'll assume basic web types are available.
 

@@ -1,4 +1,5 @@
-require('dotenv').config();
+const dotenv = require('dotenv');
+dotenv.config();
 
 const port = process.env.PORT || 3005;
 const apiKey = process.env.API_KEY;
