@@ -1,0 +1,112 @@
+{
+  "welcome": [
+    "actionUrl",
+    "name",
+    "year"
+  ],
+  "affiliationCode": [
+    "otp_code",
+    "requested_at",
+    "requested_from"
+  ],
+  "emailLinkSignIn": [
+    "app.name",
+    "magic_link",
+    "requested_at",
+    "requested_from",
+    "ttl_minutes"
+  ],
+  "emailLinkSignUp": [
+    "app.name",
+    "magic_link",
+    "requested_at",
+    "requested_from",
+    "ttl_minutes"
+  ],
+  "emailLinkVerifyEmail": [
+    "app.name",
+    "magic_link",
+    "requested_at",
+    "requested_from",
+    "ttl_minutes"
+  ],
+  "invitation": [
+    "action_url",
+    "app.name",
+    "escapeURIs",
+    "invitation.expires_in_days",
+    "inviter_name"
+  ],
+  "organizationInvitation": [
+    "action_url",
+    "app.name",
+    "escapeURIs",
+    "inviter_name"
+  ],
+  "organizationInvitationAccepted": [
+    "app.url",
+    "email_address",
+    "escapeURIs"
+  ],
+  "organizationJoined": [
+    "app.name",
+    "app.url",
+    "escapeURIs"
+  ],
+  "organizationMembershipRequested": [
+    "app.url",
+    "email_address",
+    "escapeURIs"
+  ],
+  "passkeyAdded": [
+    "escapeURIs",
+    "greeting_name",
+    "primary_email_address"
+  ],
+  "passkeyRemoved": [
+    "escapeURIs",
+    "greeting_name",
+    "primary_email_address"
+  ],
+  "passwordChanged": [
+    "greeting_name",
+    "primary_email_address"
+  ],
+  "passwordRemoved": [
+    "greeting_name",
+    "primary_email_address"
+  ],
+  "passwordReset": [
+    "otp_code",
+    "requested_at",
+    "requested_from"
+  ],
+  "primaryEmailAddressChanged": [
+    "new_email_address"
+  ],
+  "signInFromNewClient": [
+    "app.name",
+    "browser_name",
+    "device_type",
+    "ip_address",
+    "location",
+    "operating_system",
+    "revoke_session_url",
+    "session_created_at",
+    "sign_in_method",
+    "support_email"
+  ],
+  "verificationCode": [
+    "otp_code",
+    "requested_at",
+    "requested_from"
+  ],
+  "waitlistConfirmation": [
+    "app.name"
+  ],
+  "waitlistInvitaion": [
+    "action_url",
+    "app.name",
+    "invitation.expires_in_days"
+  ]
+}

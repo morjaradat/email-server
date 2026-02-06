@@ -1,0 +1,1311 @@
+[
+  {
+    "id": "<34cb70a3-3c3e-32ed-3f4b-77763e5045c7@gmail.com>",
+    "timestamp": "2026-02-03T17:32:04.047Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<1925a7c2-b2fa-2899-c4f3-8c67d7629387@gmail.com>",
+    "timestamp": "2026-02-03T17:35:02.627Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<537d54b3-e62b-7cab-32d9-f20c59ae0fa5@gmail.com>",
+    "timestamp": "2026-02-03T17:35:16.810Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "verificationCode",
+    "status": "sent"
+  },
+  {
+    "id": "<0c156d0e-1caa-4d15-6190-a9fbdc5969f9@gmail.com>",
+    "timestamp": "2026-02-03T17:36:00.870Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkSignIn",
+    "status": "sent"
+  },
+  {
+    "id": "<1a92ed61-722e-cf2a-20ee-dfcd8bdfc58d@gmail.com>",
+    "timestamp": "2026-02-03T17:36:04.952Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkVerifyEmail",
+    "status": "sent"
+  },
+  {
+    "id": "<a2d6328b-bf88-8822-ce83-f272c707a7fe@gmail.com>",
+    "timestamp": "2026-02-03T17:36:09.737Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<0c662d76-7841-5779-41b0-9e9c879c22fe@gmail.com>",
+    "timestamp": "2026-02-03T17:36:18.691Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordChanged",
+    "status": "sent"
+  },
+  {
+    "id": "<c2d8068c-ee83-6f08-f870-b7ba2c84b5fc@gmail.com>",
+    "timestamp": "2026-02-03T17:36:21.499Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordRemoved",
+    "status": "sent"
+  },
+  {
+    "id": "<d20555b0-7460-d865-33c0-1f069ed454dd@gmail.com>",
+    "timestamp": "2026-02-03T17:36:24.576Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<1f46eafb-c939-54c6-381a-d523ef427861@gmail.com>",
+    "timestamp": "2026-02-03T17:36:27.411Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "primaryEmailAddressChanged",
+    "status": "sent"
+  },
+  {
+    "id": "<a6fd311e-1ac4-0c3a-9221-2da7304bb872@gmail.com>",
+    "timestamp": "2026-02-03T17:36:30.471Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "signInFromNewClient",
+    "status": "sent"
+  },
+  {
+    "id": "<bf8c9eee-caa7-6c93-e4ff-334dee080023@gmail.com>",
+    "timestamp": "2026-02-03T17:36:33.872Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "verificationCode",
+    "status": "sent"
+  },
+  {
+    "id": "<f35a2362-f379-a48e-e148-c79dd124f644@gmail.com>",
+    "timestamp": "2026-02-03T17:36:36.525Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkSignIn",
+    "status": "sent"
+  },
+  {
+    "id": "<ba45d18e-ea62-38e2-945e-e8fe6100a9c2@gmail.com>",
+    "timestamp": "2026-02-03T17:36:36.771Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "waitlistConfirmation",
+    "status": "sent"
+  },
+  {
+    "id": "<4732a831-57df-af20-b925-fb447474ae94@gmail.com>",
+    "timestamp": "2026-02-03T17:36:39.770Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "waitlistInvitaion",
+    "status": "sent"
+  },
+  {
+    "id": "<3d9978b3-c046-1c19-a09f-991b73b9824e@gmail.com>",
+    "timestamp": "2026-02-03T17:36:40.504Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkVerifyEmail",
+    "status": "sent"
+  },
+  {
+    "id": "<43a4ac63-c73a-8022-4399-55577c58e6b1@gmail.com>",
+    "timestamp": "2026-02-03T17:36:43.440Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<ede820a2-5cf5-df91-6e89-e8efa23266c3@gmail.com>",
+    "timestamp": "2026-02-03T17:36:52.479Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordChanged",
+    "status": "sent"
+  },
+  {
+    "id": "<5f7236ae-0987-aad3-39d5-4963c528a7fd@gmail.com>",
+    "timestamp": "2026-02-03T17:36:53.775Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "affiliationCode",
+    "status": "sent"
+  },
+  {
+    "id": "<a5c9549e-2245-5802-61f7-3488d6bcf83e@gmail.com>",
+    "timestamp": "2026-02-03T17:36:55.613Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordRemoved",
+    "status": "sent"
+  },
+  {
+    "id": "<597cca99-07a1-86bf-8a26-df6e9a70a015@gmail.com>",
+    "timestamp": "2026-02-03T17:36:56.781Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkSignIn",
+    "status": "sent"
+  },
+  {
+    "id": "<755e9969-da5f-ec11-a806-337b8f3eb85c@gmail.com>",
+    "timestamp": "2026-02-03T17:36:58.676Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<8e9db1e3-e04c-16cc-ec14-3cf3d11fac28@gmail.com>",
+    "timestamp": "2026-02-03T17:37:00.711Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkVerifyEmail",
+    "status": "sent"
+  },
+  {
+    "id": "<40f393b2-6a66-06c2-9cca-297e8aa5df2e@gmail.com>",
+    "timestamp": "2026-02-03T17:37:01.910Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "primaryEmailAddressChanged",
+    "status": "sent"
+  },
+  {
+    "id": "<41d08ccb-315f-0451-f7af-8edb60d0bd28@gmail.com>",
+    "timestamp": "2026-02-03T17:37:03.649Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<3f8a5a9b-567b-c1d4-8980-b2be55bc8d24@gmail.com>",
+    "timestamp": "2026-02-03T17:37:04.921Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "signInFromNewClient",
+    "status": "sent"
+  },
+  {
+    "id": "<bae4a9b8-9ea2-ca91-7f0b-2b75ae554b19@gmail.com>",
+    "timestamp": "2026-02-03T17:37:07.819Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "verificationCode",
+    "status": "sent"
+  },
+  {
+    "id": "<d12e387e-c9af-9143-778d-d879a7406df7@gmail.com>",
+    "timestamp": "2026-02-03T17:37:10.577Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "waitlistConfirmation",
+    "status": "sent"
+  },
+  {
+    "id": "<569fc846-283c-fa4f-dbc5-f138536ba67d@gmail.com>",
+    "timestamp": "2026-02-03T17:37:12.631Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordChanged",
+    "status": "sent"
+  },
+  {
+    "id": "<e9ba43d0-64c0-1172-ed3e-c0205e8d1abd@gmail.com>",
+    "timestamp": "2026-02-03T17:37:13.803Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "waitlistInvitaion",
+    "status": "sent"
+  },
+  {
+    "id": "<824525ba-beb2-2588-c2d3-e4d2713713d3@gmail.com>",
+    "timestamp": "2026-02-03T17:37:15.752Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordRemoved",
+    "status": "sent"
+  },
+  {
+    "id": "<5eb3bfda-7313-492c-c046-a9c918b12bf1@gmail.com>",
+    "timestamp": "2026-02-03T17:37:18.777Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<d1612afc-9479-6d60-1b84-ec7b39428fcf@gmail.com>",
+    "timestamp": "2026-02-03T17:37:22.029Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "primaryEmailAddressChanged",
+    "status": "sent"
+  },
+  {
+    "id": "<51863b24-f645-f670-729a-bcd4bae93882@gmail.com>",
+    "timestamp": "2026-02-03T17:37:24.905Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "signInFromNewClient",
+    "status": "sent"
+  },
+  {
+    "id": "<99614e63-e18d-67e3-2843-b5e9fcee1277@gmail.com>",
+    "timestamp": "2026-02-03T17:37:27.868Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "verificationCode",
+    "status": "sent"
+  },
+  {
+    "id": "<f5b5f985-9b4f-a57a-447a-5cd5cfe9d61e@gmail.com>",
+    "timestamp": "2026-02-03T17:37:30.644Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "waitlistConfirmation",
+    "status": "sent"
+  },
+  {
+    "id": "<8c27270b-3e77-9cdc-deee-b2a95bcc8d26@gmail.com>",
+    "timestamp": "2026-02-03T17:37:33.598Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "waitlistInvitaion",
+    "status": "sent"
+  },
+  {
+    "id": "<730eda3e-dcec-a782-7d8d-98ee219e72f6@gmail.com>",
+    "timestamp": "2026-02-03T17:37:55.739Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkSignIn",
+    "status": "sent"
+  },
+  {
+    "id": "<54daab81-3d43-be13-ba1d-a5a8d32736e9@gmail.com>",
+    "timestamp": "2026-02-03T17:37:58.574Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkSignUp",
+    "status": "sent"
+  },
+  {
+    "id": "<79883e93-c5bc-6bd7-6c70-c067fd086b0a@gmail.com>",
+    "timestamp": "2026-02-03T17:38:01.546Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkVerifyEmail",
+    "status": "sent"
+  },
+  {
+    "id": "<63451e66-9312-c4d4-c698-3e4c3ac42338@gmail.com>",
+    "timestamp": "2026-02-03T17:38:04.400Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<3ecb3d20-8602-87ea-31da-73d661064fd3@gmail.com>",
+    "timestamp": "2026-02-03T17:38:07.284Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationInvitation",
+    "status": "sent"
+  },
+  {
+    "id": "<7c55cac6-fd53-da5f-d1f8-e2fff853de30@gmail.com>",
+    "timestamp": "2026-02-03T17:38:10.248Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationInvitationAccepted",
+    "status": "sent"
+  },
+  {
+    "id": "<1fc7637c-9e48-4505-b16b-27278d4cba9f@gmail.com>",
+    "timestamp": "2026-02-03T17:38:13.010Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationJoined",
+    "status": "sent"
+  },
+  {
+    "id": "<9060bb98-7db1-b7be-8f5c-33dc5091efc5@gmail.com>",
+    "timestamp": "2026-02-03T17:38:57.683Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkSignIn",
+    "status": "sent"
+  },
+  {
+    "id": "<e0c02ef3-30ad-99ae-5189-7b8ad791e5f6@gmail.com>",
+    "timestamp": "2026-02-03T17:39:00.723Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkSignUp",
+    "status": "sent"
+  },
+  {
+    "id": "<db2186c6-7d9c-094d-a3ee-d75a607e6280@gmail.com>",
+    "timestamp": "2026-02-03T17:39:03.806Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkVerifyEmail",
+    "status": "sent"
+  },
+  {
+    "id": "<2977bc5f-64d2-77e4-02cb-365a2de85ba7@gmail.com>",
+    "timestamp": "2026-02-03T17:39:06.862Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<c729d23d-3b6e-3fef-13e7-3cf2b3b1873b@gmail.com>",
+    "timestamp": "2026-02-03T17:39:09.819Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationInvitation",
+    "status": "sent"
+  },
+  {
+    "id": "<35384084-7fb8-0bf7-d720-5fc6a63d4f26@gmail.com>",
+    "timestamp": "2026-02-03T17:39:12.695Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationInvitationAccepted",
+    "status": "sent"
+  },
+  {
+    "id": "<23024ac4-0ea7-6fc0-fda2-e33839f40dbf@gmail.com>",
+    "timestamp": "2026-02-03T17:39:38.889Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkSignIn",
+    "status": "sent"
+  },
+  {
+    "id": "<f2639498-14b3-ddbc-96d7-71dca93948dc@gmail.com>",
+    "timestamp": "2026-02-03T17:39:41.787Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkSignUp",
+    "status": "sent"
+  },
+  {
+    "id": "<26e5543b-ccd7-4a23-cdb4-84f19afe4178@gmail.com>",
+    "timestamp": "2026-02-03T17:39:44.623Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkVerifyEmail",
+    "status": "sent"
+  },
+  {
+    "id": "<92cd9985-1658-fa3f-7a70-a18c4c4126cd@gmail.com>",
+    "timestamp": "2026-02-03T17:39:47.435Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<61c6e4f0-10dd-de25-e057-c3a1fbfb6893@gmail.com>",
+    "timestamp": "2026-02-03T17:39:50.318Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationInvitation",
+    "status": "sent"
+  },
+  {
+    "id": "<c3865c7d-7636-034a-9f2d-055d0c6fd629@gmail.com>",
+    "timestamp": "2026-02-03T17:39:53.268Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationInvitationAccepted",
+    "status": "sent"
+  },
+  {
+    "id": "<38f0a579-5ce9-e5d5-4072-4b7d7849c3b6@gmail.com>",
+    "timestamp": "2026-02-03T17:40:06.838Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "waitlistConfirmation",
+    "status": "sent"
+  },
+  {
+    "id": "<245f7542-1154-ba32-5767-99d43647bb57@gmail.com>",
+    "timestamp": "2026-02-03T17:40:09.643Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "waitlistInvitaion",
+    "status": "sent"
+  },
+  {
+    "id": "<36d6a6ba-026f-3d3b-84e8-a7c7259e60bf@gmail.com>",
+    "timestamp": "2026-02-03T17:40:12.853Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "affiliationCode",
+    "status": "sent"
+  },
+  {
+    "id": "<12239bd9-3e1c-3af1-b3d7-aad427ce3d84@gmail.com>",
+    "timestamp": "2026-02-03T17:40:15.662Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkSignIn",
+    "status": "sent"
+  },
+  {
+    "id": "<8794f554-195f-b106-5825-320f4adaab87@gmail.com>",
+    "timestamp": "2026-02-03T17:40:18.631Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkSignUp",
+    "status": "sent"
+  },
+  {
+    "id": "<c6ae93fa-e3c5-f017-fed3-42378813dd59@gmail.com>",
+    "timestamp": "2026-02-03T17:40:21.381Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkVerifyEmail",
+    "status": "sent"
+  },
+  {
+    "id": "<749a6761-5f81-fa5d-6fa0-01d171a90dbc@gmail.com>",
+    "timestamp": "2026-02-03T17:40:24.208Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<7470a7e9-ee92-05d5-0030-a2a22bd10a31@gmail.com>",
+    "timestamp": "2026-02-03T17:40:27.120Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationInvitation",
+    "status": "sent"
+  },
+  {
+    "id": "<70a03cc0-b5e1-fc73-4669-6cc4ac4fe5b1@gmail.com>",
+    "timestamp": "2026-02-03T17:40:29.991Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationInvitationAccepted",
+    "status": "sent"
+  },
+  {
+    "id": "<3b0d3fff-cbf1-c87e-0921-75b85f022672@gmail.com>",
+    "timestamp": "2026-02-03T17:40:33.508Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationJoined",
+    "status": "sent"
+  },
+  {
+    "id": "<1277619c-c6a5-99c4-08a1-5cd5fc81e42b@gmail.com>",
+    "timestamp": "2026-02-03T17:40:36.911Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationMembershipRequested",
+    "status": "sent"
+  },
+  {
+    "id": "<9a6ef79a-76ef-b1b5-883d-d1e4400c0369@gmail.com>",
+    "timestamp": "2026-02-03T17:42:50.792Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "affiliationCode",
+    "status": "sent"
+  },
+  {
+    "id": "<e30c9a52-d1a6-8915-b929-ec1064dea2be@gmail.com>",
+    "timestamp": "2026-02-03T17:42:53.672Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkSignIn",
+    "status": "sent"
+  },
+  {
+    "id": "<d65e05a0-98ba-62b5-f0fe-1b264130e2d9@gmail.com>",
+    "timestamp": "2026-02-03T17:42:56.561Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkSignUp",
+    "status": "sent"
+  },
+  {
+    "id": "<f6ed0b58-6e09-bbe6-90b3-6846bd266ccf@gmail.com>",
+    "timestamp": "2026-02-03T17:42:59.555Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkVerifyEmail",
+    "status": "sent"
+  },
+  {
+    "id": "<2c860d76-ad9c-b07e-e07d-7aee5154963b@gmail.com>",
+    "timestamp": "2026-02-03T17:43:02.990Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<bdfa0db8-6758-9659-d6b0-ca3f39117c7a@gmail.com>",
+    "timestamp": "2026-02-03T17:43:06.010Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationInvitation",
+    "status": "sent"
+  },
+  {
+    "id": "<76beff90-0874-ad0b-de81-0ce878d3f19c@gmail.com>",
+    "timestamp": "2026-02-03T17:43:09.749Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationInvitationAccepted",
+    "status": "sent"
+  },
+  {
+    "id": "<09b32ab6-e2c3-8d56-e099-126bfbce702d@gmail.com>",
+    "timestamp": "2026-02-03T17:43:12.964Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationJoined",
+    "status": "sent"
+  },
+  {
+    "id": "<4b138efc-993f-e21e-4c07-094e1aa4bd8f@gmail.com>",
+    "timestamp": "2026-02-03T17:43:15.888Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationMembershipRequested",
+    "status": "sent"
+  },
+  {
+    "id": "<bab712fc-cebe-364d-23b7-136a2ef3e3c9@gmail.com>",
+    "timestamp": "2026-02-03T17:43:18.859Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passkeyAdded",
+    "status": "sent"
+  },
+  {
+    "id": "<ce1fae0b-18a1-6ab8-76b9-9a045a7abb4d@gmail.com>",
+    "timestamp": "2026-02-03T17:43:21.811Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passkeyRemoved",
+    "status": "sent"
+  },
+  {
+    "id": "<4b14ffcb-be1a-9259-c5a7-1e115970f1cf@gmail.com>",
+    "timestamp": "2026-02-03T17:43:24.786Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordChanged",
+    "status": "sent"
+  },
+  {
+    "id": "<cb739dce-d257-c424-37eb-5a24566bf5d0@gmail.com>",
+    "timestamp": "2026-02-03T17:43:27.885Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordRemoved",
+    "status": "sent"
+  },
+  {
+    "id": "<de7f6025-d52c-8efa-68b1-15f70efaa14f@gmail.com>",
+    "timestamp": "2026-02-03T17:43:30.759Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<e311b0b7-96c4-a1bc-586c-8838e69525f1@gmail.com>",
+    "timestamp": "2026-02-03T17:43:33.548Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "primaryEmailAddressChanged",
+    "status": "sent"
+  },
+  {
+    "id": "<a67b217c-7134-d543-b622-260ce82d2721@gmail.com>",
+    "timestamp": "2026-02-03T17:43:36.371Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "signInFromNewClient",
+    "status": "sent"
+  },
+  {
+    "id": "<5e874ee2-1882-2c61-4830-0e5ca67db6bf@gmail.com>",
+    "timestamp": "2026-02-03T17:43:39.374Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "verificationCode",
+    "status": "sent"
+  },
+  {
+    "id": "<d428353b-7339-eb5f-78ee-4e9236dd0571@gmail.com>",
+    "timestamp": "2026-02-03T17:43:42.108Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "waitlistConfirmation",
+    "status": "sent"
+  },
+  {
+    "id": "<c7311f59-8ab0-feb6-23ec-00805d86d1ab@gmail.com>",
+    "timestamp": "2026-02-03T17:43:45.082Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "waitlistInvitaion",
+    "status": "sent"
+  },
+  {
+    "id": "<9903ab9d-e781-8550-fab5-ecb9359f8b80@gmail.com>",
+    "timestamp": "2026-02-03T17:48:32.021Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "affiliationCode",
+    "status": "sent"
+  },
+  {
+    "id": "<062a681d-7f00-939c-b688-e23d1199b30b@gmail.com>",
+    "timestamp": "2026-02-03T17:48:36.021Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkSignIn",
+    "status": "sent"
+  },
+  {
+    "id": "<9c95f778-c8fd-9971-d940-48f86e20cc89@gmail.com>",
+    "timestamp": "2026-02-03T17:48:51.768Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkSignUp",
+    "status": "sent"
+  },
+  {
+    "id": "<93dfa563-a6a8-aca2-2d59-470109871758@gmail.com>",
+    "timestamp": "2026-02-03T17:48:56.802Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkVerifyEmail",
+    "status": "sent"
+  },
+  {
+    "id": "<62b025bd-b1aa-6e42-f890-4f71237f0b9a@gmail.com>",
+    "timestamp": "2026-02-03T17:49:00.008Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<b1d2e99b-4150-23ba-6989-7908501d9238@gmail.com>",
+    "timestamp": "2026-02-03T17:49:04.354Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationInvitation",
+    "status": "sent"
+  },
+  {
+    "id": "<dfb0c518-0ca2-ce5c-c66c-c69e3cbeee90@gmail.com>",
+    "timestamp": "2026-02-03T17:49:07.770Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationInvitationAccepted",
+    "status": "sent"
+  },
+  {
+    "id": "<4f289d53-5ca2-8a13-2fc5-94f66cc5e84e@gmail.com>",
+    "timestamp": "2026-02-03T17:49:11.556Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationJoined",
+    "status": "sent"
+  },
+  {
+    "id": "<760c24a5-567f-fa7a-0e20-f7ffd91be4ef@gmail.com>",
+    "timestamp": "2026-02-03T17:49:23.994Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationMembershipRequested",
+    "status": "sent"
+  },
+  {
+    "id": "<37907d58-3b6f-a7a1-31a0-4c1b6ffa03b3@gmail.com>",
+    "timestamp": "2026-02-03T17:49:26.412Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passkeyAdded",
+    "status": "sent"
+  },
+  {
+    "id": "<ce9a4304-4ae8-d636-80de-a60e7798c336@gmail.com>",
+    "timestamp": "2026-02-03T17:49:34.306Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passkeyRemoved",
+    "status": "sent"
+  },
+  {
+    "id": "<81eb5aa7-42cf-72b9-e826-0d5bdc606aec@gmail.com>",
+    "timestamp": "2026-02-03T17:49:36.609Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordChanged",
+    "status": "sent"
+  },
+  {
+    "id": "<42bba2f5-4d03-487f-039b-3af5e82d2d78@gmail.com>",
+    "timestamp": "2026-02-03T17:49:39.027Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordRemoved",
+    "status": "sent"
+  },
+  {
+    "id": "<0c2ab45f-26b7-c66a-201e-6e52fa61f117@gmail.com>",
+    "timestamp": "2026-02-03T17:49:41.565Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<36991ab1-9065-1174-22e1-aeb1e722efd6@gmail.com>",
+    "timestamp": "2026-02-03T17:49:44.217Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "primaryEmailAddressChanged",
+    "status": "sent"
+  },
+  {
+    "id": "<d4c878ad-1e12-ac61-fdea-bbb32e226503@gmail.com>",
+    "timestamp": "2026-02-03T17:49:46.806Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "signInFromNewClient",
+    "status": "sent"
+  },
+  {
+    "id": "<571c8200-30c6-512f-39c2-882ce8408ad3@gmail.com>",
+    "timestamp": "2026-02-03T17:49:49.171Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "verificationCode",
+    "status": "sent"
+  },
+  {
+    "id": "<282f15af-919a-1d00-8183-6f2b8f9835dc@gmail.com>",
+    "timestamp": "2026-02-03T17:49:51.607Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "waitlistConfirmation",
+    "status": "sent"
+  },
+  {
+    "id": "<7e2b6ef8-da87-02e3-4396-41acdcd0d93d@gmail.com>",
+    "timestamp": "2026-02-03T17:49:54.317Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "waitlistInvitaion",
+    "status": "sent"
+  },
+  {
+    "id": "<c0e5c61c-1d88-f295-493d-ba2c7f64752e@gmail.com>",
+    "timestamp": "2026-02-05T07:21:26.347Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "affiliationCode",
+    "status": "sent"
+  },
+  {
+    "id": "<8300f4a4-2198-5856-d9f0-e0e67931d9dc@gmail.com>",
+    "timestamp": "2026-02-05T07:21:28.669Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkSignIn",
+    "status": "sent"
+  },
+  {
+    "id": "<ef679600-ab72-ced6-688d-6702526f48f7@gmail.com>",
+    "timestamp": "2026-02-05T07:21:31.116Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkSignUp",
+    "status": "sent"
+  },
+  {
+    "id": "<781f8a3d-8497-a429-0cea-348441962fcd@gmail.com>",
+    "timestamp": "2026-02-05T07:21:33.468Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "emailLinkVerifyEmail",
+    "status": "sent"
+  },
+  {
+    "id": "<f460fbd7-24ca-1b79-28d2-7d29304aa005@gmail.com>",
+    "timestamp": "2026-02-05T07:21:35.845Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<2fa712bc-c49b-f793-19e7-6c7e078ebac8@gmail.com>",
+    "timestamp": "2026-02-05T07:21:39.269Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationInvitation",
+    "status": "sent"
+  },
+  {
+    "id": "<97957ff6-b31d-18c7-d3e4-ae1ecc2130ff@gmail.com>",
+    "timestamp": "2026-02-05T07:21:41.580Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationInvitationAccepted",
+    "status": "sent"
+  },
+  {
+    "id": "<bc4fd0e3-de05-3084-434c-1e62da2bfdf4@gmail.com>",
+    "timestamp": "2026-02-05T07:21:43.841Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationJoined",
+    "status": "sent"
+  },
+  {
+    "id": "<ea6c92f5-ff3c-6ba7-c6e8-6b6689ef49dc@gmail.com>",
+    "timestamp": "2026-02-05T07:21:46.079Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "organizationMembershipRequested",
+    "status": "sent"
+  },
+  {
+    "id": "<73973765-c5bf-4b36-036c-97ca3ce5cd70@gmail.com>",
+    "timestamp": "2026-02-05T07:21:48.399Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passkeyAdded",
+    "status": "sent"
+  },
+  {
+    "id": "<04161974-867e-41da-627d-edf33d44df68@gmail.com>",
+    "timestamp": "2026-02-05T07:21:50.804Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passkeyRemoved",
+    "status": "sent"
+  },
+  {
+    "id": "<1733ca69-3b61-7ec5-045d-d698fb2170aa@gmail.com>",
+    "timestamp": "2026-02-05T07:21:53.189Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordChanged",
+    "status": "sent"
+  },
+  {
+    "id": "<6e839e77-10c2-0c87-ee4d-f1d36fabb63e@gmail.com>",
+    "timestamp": "2026-02-05T07:21:55.415Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordRemoved",
+    "status": "sent"
+  },
+  {
+    "id": "<c20b7e20-11e3-b298-32a3-1689401e8e95@gmail.com>",
+    "timestamp": "2026-02-05T07:21:57.838Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<00c49dab-3658-30ca-1ba8-f4c6d879474e@gmail.com>",
+    "timestamp": "2026-02-05T07:22:00.149Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "primaryEmailAddressChanged",
+    "status": "sent"
+  },
+  {
+    "id": "<4460a3cb-f5be-a6f7-3f77-09817f11a211@gmail.com>",
+    "timestamp": "2026-02-05T07:22:02.405Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "signInFromNewClient",
+    "status": "sent"
+  },
+  {
+    "id": "<cd0ff4e0-2436-9e77-aec1-593a0cf2ddab@gmail.com>",
+    "timestamp": "2026-02-05T07:22:04.688Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "verificationCode",
+    "status": "sent"
+  },
+  {
+    "id": "<4fe5c75f-022d-6e32-7024-ed48eab44f3b@gmail.com>",
+    "timestamp": "2026-02-05T07:22:06.960Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "waitlistConfirmation",
+    "status": "sent"
+  },
+  {
+    "id": "<6ee2180d-8b19-4ee7-f4b8-5ae647ad03ed@gmail.com>",
+    "timestamp": "2026-02-05T07:22:09.258Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "waitlistInvitaion",
+    "status": "sent"
+  },
+  {
+    "id": "<2c9306a7-73c7-aeff-2fbd-70f818516d1d@gmail.com>",
+    "timestamp": "2026-02-05T07:29:11.600Z",
+    "to": "test@example.com",
+    "template": "welcome",
+    "status": "sent"
+  },
+  {
+    "id": "<bdb8aeb3-5f76-1e1b-9faf-95240501316c@gmail.com>",
+    "timestamp": "2026-02-05T07:44:19.499Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "raw",
+    "status": "sent"
+  },
+  {
+    "id": "<4b3db7e7-6bae-2219-c42f-03f6ffda1c16@gmail.com>",
+    "timestamp": "2026-02-05T07:46:21.799Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "raw",
+    "status": "sent"
+  },
+  {
+    "id": "<ea6f9d0a-c1ea-ab50-1797-e55cfb4b49a7@gmail.com>",
+    "timestamp": "2026-02-05T07:47:15.087Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "welcome",
+    "status": "sent"
+  },
+  {
+    "id": "<26aad989-b1bb-40f5-0ea2-fcf2645dd42f@email_service.com>",
+    "timestamp": "2026-02-05T07:54:01.429Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "welcome",
+    "status": "sent"
+  },
+  {
+    "id": "<29ee7a0e-81cc-4b4b-433f-372f1fc98b55@email_service.com>",
+    "timestamp": "2026-02-05T08:03:10.950Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "welcome",
+    "status": "sent"
+  },
+  {
+    "id": "<dbaa87a8-2365-5a0e-371d-6a5892133148@email_service.com>",
+    "timestamp": "2026-02-05T08:23:41.282Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "welcome",
+    "status": "sent"
+  },
+  {
+    "id": "<2e749b44-4015-37db-60a2-a7604a137974@email_service.com>",
+    "timestamp": "2026-02-05T08:30:37.647Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "welcome",
+    "status": "sent"
+  },
+  {
+    "id": "<8366706e-1577-97aa-da45-86685ce22e3a@email_service.com>",
+    "timestamp": "2026-02-05T08:33:47.302Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "welcome",
+    "status": "sent"
+  },
+  {
+    "id": "<4e6ca4b2-6f8c-fda5-98ff-8bd297c9bf16@email_service.com>",
+    "timestamp": "2026-02-05T08:36:04.923Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "welcome",
+    "status": "sent"
+  },
+  {
+    "id": "<0ad607e8-2925-2ecb-1060-0620754df702@email_service.com>",
+    "timestamp": "2026-02-05T08:43:49.743Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "welcome",
+    "status": "sent"
+  },
+  {
+    "id": "<e5838bbf-d47f-689e-8d40-697279404166@email_service.com>",
+    "timestamp": "2026-02-05T08:45:06.740Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<13b9e86d-3d92-c399-1b3a-446dd0007fe5@email_service.com>",
+    "timestamp": "2026-02-05T08:45:38.270Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<1cd7dc5a-51b5-13ba-6593-6ae5375d0692@email_service.com>",
+    "timestamp": "2026-02-05T08:48:13.842Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<b127107e-1ca4-ddb3-8860-8c62a2df987b@email_service.com>",
+    "timestamp": "2026-02-05T08:49:07.287Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<0964d560-0e9c-895b-cbeb-01e19fafa4f9@email_service.com>",
+    "timestamp": "2026-02-05T08:52:45.940Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<351d5912-e5d3-e052-03f6-be7584ed4cab@email_service.com>",
+    "timestamp": "2026-02-05T09:00:01.816Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "welcome",
+    "status": "sent"
+  },
+  {
+    "id": "<9910770b-825e-3157-5d42-5c0041db2649@email_service.com>",
+    "timestamp": "2026-02-05T09:00:03.659Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "affiliationCode",
+    "status": "sent"
+  },
+  {
+    "id": "<647d0d30-9b32-61e1-5d6e-a7864ba299e1@email_service.com>",
+    "timestamp": "2026-02-05T09:00:05.828Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "emailLinkSignIn",
+    "status": "sent"
+  },
+  {
+    "id": "<025fb846-331b-5f8b-2aa5-e2397281d92d@email_service.com>",
+    "timestamp": "2026-02-05T09:00:08.296Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "emailLinkSignUp",
+    "status": "sent"
+  },
+  {
+    "id": "<e1a58957-845e-b4a6-2cb6-79db7ca87c17@email_service.com>",
+    "timestamp": "2026-02-05T09:00:10.390Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "emailLinkVerifyEmail",
+    "status": "sent"
+  },
+  {
+    "id": "<e6930451-4e39-7783-7285-a721f4d0d996@email_service.com>",
+    "timestamp": "2026-02-05T09:00:12.481Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<39d1b8ee-23fe-6d4a-fbb3-a74784276b58@email_service.com>",
+    "timestamp": "2026-02-05T09:00:14.601Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "organizationInvitation",
+    "status": "sent"
+  },
+  {
+    "id": "<9d34a075-77f1-20e1-db72-2d980c5f1179@email_service.com>",
+    "timestamp": "2026-02-05T09:00:16.669Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "organizationInvitationAccepted",
+    "status": "sent"
+  },
+  {
+    "id": "<c10ab27a-d9e5-99b2-8340-ed257c986c50@email_service.com>",
+    "timestamp": "2026-02-05T09:00:18.545Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "organizationJoined",
+    "status": "sent"
+  },
+  {
+    "id": "<1dc212e4-28ac-afd1-4838-4d827d29205e@email_service.com>",
+    "timestamp": "2026-02-05T09:00:20.435Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "organizationMembershipRequested",
+    "status": "sent"
+  },
+  {
+    "id": "<901a9c2a-8c60-b6f1-87f0-917418b2772a@email_service.com>",
+    "timestamp": "2026-02-05T09:00:22.507Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passkeyAdded",
+    "status": "sent"
+  },
+  {
+    "id": "<e42ed7df-6f6c-3345-faad-bdd69a1b6b07@email_service.com>",
+    "timestamp": "2026-02-05T09:00:24.662Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passkeyRemoved",
+    "status": "sent"
+  },
+  {
+    "id": "<e09ed5ce-2a53-9bc2-c314-41a211b94ab7@email_service.com>",
+    "timestamp": "2026-02-05T09:00:26.554Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordChanged",
+    "status": "sent"
+  },
+  {
+    "id": "<dbcb213b-17b4-a0ff-d43a-5e3f447dad1e@email_service.com>",
+    "timestamp": "2026-02-05T09:00:28.397Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordRemoved",
+    "status": "sent"
+  },
+  {
+    "id": "<d9b394ed-e8c1-1cff-c206-c7750a32caef@email_service.com>",
+    "timestamp": "2026-02-05T09:00:30.441Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<2e8d1d51-16da-e1ca-2296-f5420cca680b@email_service.com>",
+    "timestamp": "2026-02-05T09:00:32.372Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "primaryEmailAddressChanged",
+    "status": "sent"
+  },
+  {
+    "id": "<605d99ea-08e1-319b-22d3-e00510a2ce27@email_service.com>",
+    "timestamp": "2026-02-05T09:00:34.227Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "signInFromNewClient",
+    "status": "sent"
+  },
+  {
+    "id": "<424e205f-c86b-d8c1-32ae-9ae1333ec2a9@email_service.com>",
+    "timestamp": "2026-02-05T09:00:36.425Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "verificationCode",
+    "status": "sent"
+  },
+  {
+    "id": "<9d4e42f5-6f1c-dfbe-bb40-c17fd58f3953@email_service.com>",
+    "timestamp": "2026-02-05T09:00:39.160Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "waitlistConfirmation",
+    "status": "sent"
+  },
+  {
+    "id": "<8c2e4943-2b9f-be6b-9260-d63f9f4a2a8c@email_service.com>",
+    "timestamp": "2026-02-05T09:00:41.061Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "waitlistInvitaion",
+    "status": "sent"
+  },
+  {
+    "id": "<1418d5ae-b6b6-5b9e-12d9-f24f9c733221@email_service.com>",
+    "timestamp": "2026-02-05T09:08:54.087Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "invitation",
+    "status": "sent"
+  },
+  {
+    "id": "<8c3684e4-a974-d2a0-aff9-ee72f7b86b96@email_service.com>",
+    "timestamp": "2026-02-06T05:20:39.383Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<206f1806-8a69-660d-a720-cb58d0b461e1@email_service.com>",
+    "timestamp": "2026-02-06T05:30:42.928Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<24f44a80-7f21-f561-051b-641becd9287f@email_service.com>",
+    "timestamp": "2026-02-06T06:02:05.521Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<9c12f6e0-57ab-be62-e370-fc4913420d50@email_service.com>",
+    "timestamp": "2026-02-06T06:18:43.177Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<99d698f0-7eef-015a-2cc8-3d6a368533de@email_service.com>",
+    "timestamp": "2026-02-06T06:26:10.298Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<2077d62f-bc3b-a5dc-7a34-79ca7e4fb298@email_service.com>",
+    "timestamp": "2026-02-06T06:26:59.220Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<7bea8b3c-06f1-b26e-f0c9-5995a938e7b6@email_service.com>",
+    "timestamp": "2026-02-06T06:28:06.872Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<48f92e6f-c43b-8a7d-de6e-84c042b66e11@email_service.com>",
+    "timestamp": "2026-02-06T06:28:56.242Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<191dc397-24d1-74c1-f77f-734c7b905958@email_service.com>",
+    "timestamp": "2026-02-06T06:58:00.289Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<27bed28c-f32b-a431-cc63-eaf89c08083c@email_service.com>",
+    "timestamp": "2026-02-06T07:00:30.848Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<2f31bf2e-e829-da19-d89d-9ad7c0c7184a@email_service.com>",
+    "timestamp": "2026-02-06T07:01:55.647Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<8e98239c-fdcc-007c-281d-3be5a9d605a0@email_service.com>",
+    "timestamp": "2026-02-06T07:02:23.006Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<f7f65012-5458-0204-2f58-7c2eacb51997@email_service.com>",
+    "timestamp": "2026-02-06T07:08:44.665Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<d6bc0c09-209b-b817-f012-a8829bcd0386@email_service.com>",
+    "timestamp": "2026-02-06T07:09:35.201Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<196c6c7d-b9a2-4404-0ca6-f25af830e77e@email_service.com>",
+    "timestamp": "2026-02-06T07:11:24.760Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<1a8a6696-5f21-7f1f-35bc-28541444bec2@email_service.com>",
+    "timestamp": "2026-02-06T07:11:36.200Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<1ef94b80-6b40-0d3d-7f98-920f77bd1c58@email_service.com>",
+    "timestamp": "2026-02-06T07:11:46.231Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<0c04a387-af7b-6052-38da-5fceb5f79b80@email_service.com>",
+    "timestamp": "2026-02-06T07:15:58.626Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<891dfd5e-ce57-0731-4cc6-478311b05bce@email_service.com>",
+    "timestamp": "2026-02-06T07:16:15.731Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<574008ae-b075-2857-21f7-ae7720411063@email_service.com>",
+    "timestamp": "2026-02-06T07:43:48.011Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<bbc57466-7198-6321-e852-77c0b26806c4@email_service.com>",
+    "timestamp": "2026-02-06T07:44:02.008Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<54155a5c-911c-a86f-4d6f-e4815f62d9ae@email_service.com>",
+    "timestamp": "2026-02-06T07:46:29.312Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<e559cbab-d561-13ad-f7d8-73cdc0a96b1f@email_service.com>",
+    "timestamp": "2026-02-06T07:46:38.593Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<d36b5520-afc9-2383-e7f2-718234fac4c6@email_service.com>",
+    "timestamp": "2026-02-06T07:46:57.402Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<0d1408d5-5cae-be62-aec9-e0e60b5a5230@email_service.com>",
+    "timestamp": "2026-02-06T07:47:24.103Z",
+    "to": "morjaradat66@gmail.com",
+    "template": "passwordReset",
+    "status": "sent"
+  },
+  {
+    "id": "<c03d7ae1-f1c6-2528-8bfa-6853affeb1b9@email_service.com>",
+    "timestamp": "2026-02-06T07:57:28.080Z",
+    "to": "mohammadjaradat044@gmail.com",
+    "template": "verificationCode",
+    "status": "sent"
+  }
+]

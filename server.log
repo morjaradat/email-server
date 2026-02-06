@@ -1,0 +1,5 @@
+$ bun run server.ts
+Bun Server running on port 3005
+Server is ready to take our messages
+Message sent: <4e6ca4b2-6f8c-fda5-98ff-8bd297c9bf16@email_service.com>
+error: script "start" was terminated by signal SIGKILL (Forced quit)
