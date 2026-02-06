@@ -19,14 +19,17 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 const authMiddleware = (req, res, next) => {
     const apiKey = req.headers['x-api-key'];
     console.log("apiKey", apiKey);
-    console.log("process.env.API_KEY", process.env.API_KEY);
+    const API_KEY = process.env.API_KEY;
+    console.log("process.env.API_KEY", API_KEY);
     // If API_KEY is set in env, enforce it. If not set, allow open access (dev mode)
-    // if (process.env.API_KEY !== apiKey) {
-    //     return res.status(401).json({
-    //         success: false,
-    //         error: 'Unauthorized: Invalid or missing API Key'
-    //     });
-    // }
+    if (API_KEY) {
+        if (API_KEY !== apiKey) {
+            return res.status(401).json({
+                success: false,
+                error: 'Unauthorized: Invalid or missing API Key'
+            });
+        }
+    }
     next();
 };
 

@@ -19,13 +19,17 @@ console.log("SMTP_PASS: ", Bun.env.SMTP_PASS);
 // --- Config & Helpers ---
 
 const transporter = createTransport({
+    // @ts-ignore
     host: Bun.env.SMTP_HOST,
     port: Number(Bun.env.SMTP_PORT) || 465,
     secure: Bun.env.SMTP_SECURE === "true",
+    address: "0.0.0.0",
     auth: {
         user: Bun.env.SMTP_USER,
         pass: Bun.env.SMTP_PASS,
     },
+    // Add a timeout so it doesn't hang your whole server
+    connectionTimeout: 10000,
 });
 // @ts-ignore
 transporter.verify((error) => {
@@ -243,3 +247,14 @@ Bun.serve({
         return new Response("Not Found", { status: 404 });
     },
 });
+
+async function checkEmail() {
+    try {
+        await transporter.verify();
+        console.log("Mail server is ready");
+    } catch (err) {
+        console.error("Mail server failed but web server is still running:", err);
+    }
+}
+
+checkEmail();
