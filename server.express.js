@@ -1,32 +1,83 @@
 const express = require('express');
-
 const nodemailer = require('nodemailer');
-const cors = require('cors');
 const handlebars = require('handlebars');
 const fs = require('fs');
 const path = require('path');
+const { z } = require('zod');
 require('dotenv').config();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3005; // Changed to match server.ts default
+
+// --- Email Request Schema (Zod) ---
+const EmailRequestSchema = z.object({
+    to: z.string().email({ message: "Invalid recipient email format" }),
+    subject: z.string().min(1, { message: "Subject is required" }),
+    text: z.string().optional(),
+    html: z.string().optional(),
+    template: z.string().optional(),
+    logo_url: z.string().url().optional(),
+    data: z.record(z.string(), z.any()).optional(),
+}).refine((data) => data.template || data.text || data.html, {
+    message: "Email content (text, html, or template) is required",
+    path: ["template"],
+});
+
+// --- Template Validation Helper ---
+const validateTemplateRequirements = (templateName, data, requirements) => {
+    const requiredKeys = requirements[templateName];
+    if (!requiredKeys) return [];
+
+    // Filter out known ignored keys (helpers/globals)
+    const keysToCheck = requiredKeys.filter((k) => !['escapeURIs', 'app', 'invitation'].includes(k));
+
+    const missingKeys = [];
+
+    for (const key of keysToCheck) {
+        const parts = key.split('.');
+        let current = data || {};
+        let found = true;
+
+        for (const part of parts) {
+            if (current[part] === undefined || current[part] === null) {
+                found = false;
+                break;
+            }
+            current = current[part];
+        }
+
+        if (!found) missingKeys.push(key);
+    }
+
+    return missingKeys;
+};
 
 // Middleware
-// app.use(cors());
 app.use(express.json());
 app.use('/public', express.static(path.join(__dirname, 'public')));
 
+// CORS Middleware (Matching Bun server manual headers)
+app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+    res.header("Access-Control-Allow-Headers", "Content-Type, x-api-key");
+    if (req.method === 'OPTIONS') {
+        return res.sendStatus(200);
+    }
+    next();
+});
+
 // Auth Middleware
 const authMiddleware = (req, res, next) => {
+    // Also check standard headers, Bun server checks `req.headers.get("x-api-key")`
     const apiKey = req.headers['x-api-key'];
-    console.log("apiKey", apiKey);
     const API_KEY = process.env.API_KEY;
-    console.log("process.env.API_KEY", API_KEY);
-    // If API_KEY is set in env, enforce it. If not set, allow open access (dev mode)
+
     if (API_KEY) {
         if (API_KEY !== apiKey) {
             return res.status(401).json({
                 success: false,
-                error: 'Unauthorized: Invalid or missing API Key'
+                error: 'Unauthorized'
             });
         }
     }
@@ -63,28 +114,7 @@ const logEmail = (emailData) => {
     }
 };
 
-// Validation helper
-const validateEmailData = (data) => {
-    const { to, subject, text, html, template } = data;
-    const errors = [];
-
-    if (!to) {
-        errors.push('Recipient email (to) is required');
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(to)) {
-        errors.push('Invalid recipient email format');
-    }
-
-    if (!subject) errors.push('Subject is required');
-
-    // If template is provided, text/html are optional. Otherwise one is required.
-    if (!template && !text && !html) {
-        errors.push('Email content (text, html, or template) is required');
-    }
-
-    return errors;
-};
-
-// Create Transporter
+// Create Transporter (Kept exact per request)
 const transporter = nodemailer.createTransport({
     host: process.env.SMTP_HOST,
     port: process.env.SMTP_PORT,
@@ -106,7 +136,7 @@ transporter.verify(function (error, success) {
 
 // API Routes
 
-// Get Email History
+// Get Email History matches server.ts logic (auth required)
 app.get('/api/history', authMiddleware, (req, res) => {
     const logFile = path.join(__dirname, 'data', 'history.json');
     if (!fs.existsSync(logFile)) {
@@ -122,33 +152,19 @@ app.get('/api/history', authMiddleware, (req, res) => {
 
 // Send Email
 app.post('/api/send-email', authMiddleware, async (req, res) => {
-    const validationErrors = validateEmailData(req.body);
+    // 1. Zod Validation
+    const result = EmailRequestSchema.safeParse(req.body);
 
-    if (validationErrors.length > 0) {
+    if (!result.success) {
         return res.status(400).json({
             success: false,
             error: 'Validation failed',
-            details: validationErrors
+            details: result.error.flatten().fieldErrors
         });
     }
 
-    let { to, subject, text, html, template, data } = req.body;
-
-    // Helper to wrap data with a Proxy for missing values
-    const createDataProxy = (obj) => {
-        return new Proxy(obj || {}, {
-            get: (target, prop) => {
-                if (prop in target) {
-                    return target[prop];
-                }
-                // Handlebars internal properties check
-                if (typeof prop === 'string' && (prop.startsWith('_') || prop === 'toHTML')) {
-                    return undefined;
-                }
-                return 'missingdata';
-            }
-        });
-    };
+    const { to, subject, text, html: reqHtml, template, data, logo_url } = result.data;
+    let html = reqHtml;
 
     // Handle Template
     if (template) {
@@ -159,38 +175,9 @@ app.post('/api/send-email', authMiddleware, async (req, res) => {
             if (fs.existsSync(reqPath)) {
                 templateRequirements = JSON.parse(fs.readFileSync(reqPath, 'utf8'));
             }
-        } catch (e) {
-            console.error('Failed to load template requirements:', e);
-        }
 
-        // Strict Validation
-        if (templateRequirements[template]) {
-            const requiredKeys = templateRequirements[template].filter(k => k !== 'escapeURIs' && k !== 'app' && k !== 'invitation'); // Filter helpers/nested objects for now or handle them better
-            // Actually, for nested objects like 'app.name', the scanner output returned 'app.name'.
-            // My scanner returned ["app.name", "browser_name"...]
-            // So I should check if data["app"]["name"] exists if key is "app.name", OR if flattening is used.
-            // The Handlebars data structure usually requires nested objects.
-            // Let's implement a deep check or simple check.
-
-            const missingKeys = [];
-            const keysToCheck = templateRequirements[template].filter(k =>
-                !['escapeURIs'].includes(k) // Exclude helpers
-            );
-
-            keysToCheck.forEach(key => {
-                // Check deep keys 'app.name' -> data.app.name
-                const parts = key.split('.');
-                let current = data || {};
-                let found = true;
-                for (const part of parts) {
-                    if (current[part] === undefined || current[part] === null) {
-                        found = false;
-                        break;
-                    }
-                    current = current[part];
-                }
-                if (!found) missingKeys.push(key);
-            });
+            // Validate requirement keys
+            const missingKeys = validateTemplateRequirements(template, data, templateRequirements);
 
             if (missingKeys.length > 0) {
                 return res.status(400).json({
@@ -199,16 +186,15 @@ app.post('/api/send-email', authMiddleware, async (req, res) => {
                     missingKeys: missingKeys
                 });
             }
-        }
 
+        } catch (e) {
+            console.error('Failed to load template requirements:', e);
+        }
 
         // 1. Check standard templates/ folder
         const standardPath = path.join(__dirname, 'templates', `${template}.html`);
         // 2. Check data/email-templates/ folder (converted .js files)
         const customPath = path.join(__dirname, 'data', 'email-templates', `${template}.js`);
-
-        console.log('Checking standard path:', standardPath);
-        console.log('Checking custom path:', customPath);
 
         let templateSource = '';
 
@@ -242,24 +228,26 @@ app.post('/api/send-email', authMiddleware, async (req, res) => {
 
 
         try {
-            // Fix HTML-encoded Handlebars syntax (e.g., {{&gt; app_logo}})
+            // Fix HTML-encoded Handlebars syntax
             templateSource = templateSource.replace(/{{&gt;/g, '{{>');
 
-            // Register dummy partials for any that are missing to prevent crash
-            if (!handlebars.partials['app_logo']) {
-                const logoUrl = `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu8DGs15SG9WeqaunMgdfekvhYF4_VgmxxEA&s`;
-                handlebars.registerPartial('app_logo', `<div class="app-logo"><img src="${logoUrl}" alt="App Logo" style="max-width: 150px; height: auto;" /></div>`);
-            }
+            const fallbackLogo = `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu8DGs15SG9WeqaunMgdfekvhYF4_VgmxxEA&s`;
+            const logoToUse = logo_url || fallbackLogo;
+            const logoHtml = `<div class="app-logo"><img src="${logoToUse}" alt="App Logo" style="max-width: 150px; height: auto;" /></div>`;
 
-            // Register missing helpers
+            const logoPartial = handlebars.compile(logoHtml);
+
+            // Register unique helpers if not already there, or overwrite.
             handlebars.registerHelper('escapeURIs', function (text) {
                 return new handlebars.SafeString(text);
             });
 
             const compiledTemplate = handlebars.compile(templateSource);
-            // No strict Proxy needed anymore if we pre-validate, but good to keep minimal safety or remove it.
-            // Using raw data since we validated it.
-            html = compiledTemplate(data || {});
+            html = compiledTemplate(data || {}, {
+                partials: {
+                    app_logo: logoPartial
+                }
+            });
         } catch (err) {
             return res.status(500).json({
                 success: false,
